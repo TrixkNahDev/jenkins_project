@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'git@github.com:TrixkNahDev/jenkins_project.git', branch: 'main'
+                git url: 'https://github.com/TrixkNahDev/jenkins_project.git', branch: 'main'
             }
         }
         stage('Build and Push Cast Service') {
